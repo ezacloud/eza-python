@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "eza-sdk"
+version = "0.2.0"
+description = "Eza Cloud for Python: transactional email, PayEdge M-Pesa STK push and signed webhooks."
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.9"
+dependencies = []
+keywords = ["email", "smtp", "transactional email", "mpesa", "m-pesa", "stk push", "kenya", "eza"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://eza.co.ke/docs"
+Source = "https://github.com/johbcodes/eza/tree/main/sdks/python"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+eza = ["py.typed"]
