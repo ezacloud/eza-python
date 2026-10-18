@@ -19,7 +19,7 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://eza.co.ke/docs"
-Source = "https://github.com/johbcodes/eza/tree/main/sdks/python"
+Source = "https://github.com/ezacloud/eza/tree/main/sdks/python"
 
 [tool.setuptools.packages.find]
 where = ["src"]
